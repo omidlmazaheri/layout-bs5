@@ -16,17 +16,46 @@
     <header class="p-3">
         <p class="text-center fw-bolder">Resize the browser window to see the responsive effect.</p>
     </header>
-    <section class="p-5 text-center">
+    <section class="p-5 text-center bg-success text-white">
         <h1> My Website</h1>
         <h2 class="h5">With a flexible layout.</h2>
 
     </section>
-    <nav class="bg-dark text-white p-2">
-        the navigation
+    <!-- <nav class="bg-dark text-white p-2">
+       <ul class="list-unstyled d-flex  align-items-center">
+        <li><a href="#" class="text-decoration-none text-white me-2">link</a></li>
+        <li><a href="#" class="text-decoration-none text-white me-2">link</a></li>
+        <li><a href="#" class="text-decoration-none text-white me-2">link</a></li>
+       </ul>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg bg-dark text-white">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">personal site</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Products</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
     <main class="container-fluid">
         <section class="row">
-            <aside class="col-md-3">
+            <aside class="col-md-3 mb bg-secondary ">
 
                 <h2>About Me</h2>
                 <p>Photo of me:</p>
@@ -34,18 +63,40 @@
                 <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
                 <h3>More Text</h3>
                 <p>Lorem ipsum dolor sit ame.</p>
-                <img src="https://picsum.photos/300/200?random=2" alt="" class="img-fluid">
-                <img src="https://picsum.photos/300/200?random=3" alt="" class="img-fluid">
-                <img src="https://picsum.photos/300/200?random=4" alt="" class="img-fluid">
+                <img src="https://picsum.photos/300/100?random=2" alt="" class="img-fluid">
+                <img src="https://picsum.photos/300/100?random=3" alt="" class="img-fluid mt-1">
+                <img src="https://picsum.photos/300/100?random=4" alt="" class="img-fluid mt-1">
 
             </aside>
-            <article class="col-md-9">
-                <h2>TITLE HEADING</h2>
+            <article class="col-md-9 bg-info">
+                <section>
+                    <h2>TITLE HEADING</h2>
+                    <p>Title description, Dec 7, 2024</p>
+                    <img src="https://picsum.photos/800/400?random=6" alt=" " class="img-fluid w-100">
+                    <p>Some text..</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure aliquam velit reprehenderit
+                        aspernatur laudantium minima, accusantium sapiente incidunt nostrum, laboriosam earum doloremque
+                        soluta dolorem obcaecati rerum nemo dolore maxime consectetur.</p>
+
+
+                </section>
+                <section>
+                    <h2>TITLE HEADING</h2>
+                    <p>Title description, Sep 2, 2024</p>
+                    <img src="https://picsum.photos/800/400?random=7" alt="" class="img-fluid w-100">
+                    <p>Some text..</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure aliquam velit reprehenderit
+                        aspernatur laudantium minima, accusantium sapiente incidunt nostrum, laboriosam earum doloremque
+                        soluta dolorem obcaecati rerum nemo dolore maxime consectetur.</p>
+
+
+                </section>
+
             </article>
 
         </section>
     </main>
-    <footer>
+    <footer class="bg-dark text-white ">
         <p class="h2 text-center"> the footer</p>
 
     </footer>
