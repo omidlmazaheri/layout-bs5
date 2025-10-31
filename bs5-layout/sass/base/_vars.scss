@@ -1,0 +1,23 @@
+$fontname: tahoma;
+$fontsize: 16px;
+$theme: light;
+$border-radius: 8px;
+
+// Define color palettes
+$light-theme: (
+    header-collor:#1ABC9C,
+    bg: #ffffff,
+    text: #212529,
+    primary: #0d6efd,
+    secondary: #11bb11,
+
+    card: #f8f9fa
+);
+
+$dark-theme: (
+    bg: #121212,
+    text: #f8f9fa,
+    primary: #0d6efd,
+    secondary: #11bb11,
+    card: #1e1e1e
+);

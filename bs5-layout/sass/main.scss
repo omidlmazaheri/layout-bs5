@@ -1,0 +1,7 @@
+@use 'base' as b;
+@use 'components' as *;
+
+*{
+    font-family: b.$fontname;
+    font-size: b.$fontsize;
+}
